@@ -1,23 +1,25 @@
 workflow test_wf {
 
 	File A
-	File B
+	#File B
+	File C
 
 	call test_task {
 		input:
 			A = A,
-			B = B
+			C = C
 	}
 }
 
 task test_task {
 
 	File A
-	File B
+	#File B
+	File C
 
 	command {
 		echo ${A}
-		echo ${B}
+		echo ${C}
 	}
 
 	runtime {
