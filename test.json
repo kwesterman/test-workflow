@@ -1,0 +1,4 @@
+{
+  "test_wf.A": "testfiles/fileA.txt",
+  "test_wf.B": "testfiles/fileB.txt"
+}
