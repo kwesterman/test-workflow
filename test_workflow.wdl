@@ -19,4 +19,8 @@ task test_task {
 		echo ${A}
 		echo ${B}
 	}
+
+	runtime {
+		docker: "ubuntu"
+	}
 }
